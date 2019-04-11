@@ -5,12 +5,13 @@
 /// <reference types="mocha" />
 
 declare type BN = import("bn.js");
-declare type Web3 = import("web3");
+// declare type Web3 = import("web3");
 
 declare const assert: Chai.AssertStatic;
 declare const expect: Chai.ExpectStatic;
 
-declare const web3: Web3;
+
+//declare const web3: Web3;
 
 declare function contract(name: string, test: (accounts: Truffle.Accounts) => void): void;
 
